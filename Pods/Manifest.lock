@@ -1,0 +1,21 @@
+PODS:
+  - ReactiveCocoa (5.0.0):
+    - ReactiveSwift (~> 1.0.0)
+  - ReactiveSwift (1.0.0):
+    - Result (~> 3.1)
+  - Result (3.1.0)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - ReactiveCocoa (~> 5.0.0)
+  - SVProgressHUD (~> 2.0)
+
+SPEC CHECKSUMS:
+  ReactiveCocoa: 60ef0da915b4f70c34ebecc3f4fb8f96af0e53d6
+  ReactiveSwift: f391724ee318a2cfd3e37dfb041cd49ecf4e7869
+  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: d1146b6ee0d07c831831838a2064a81b6b138c35
+
+COCOAPODS: 1.1.1
