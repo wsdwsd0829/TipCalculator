@@ -97,8 +97,16 @@ class TipViewModel: NSObject {
     }
     
     //custom methods
-
+    let formatter = NumberFormatter()
     var inputPriceDisp: String {
+        //e.g. show region
+        formatter.locale = NSLocale.current
+        formatter.alwaysShowsDecimalSeparator = true
+        formatter.numberStyle = .currency
+        formatter.minimumFractionDigits = 1
+        formatter.maximumFractionDigits = 2
+        let str = formatter.string(from: NSNumber(value: inputPrice))
+        print("Region Currency: \(str)") //will show "£1.02" is UK region
         return inputPriceStr
     }
     
